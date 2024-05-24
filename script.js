@@ -1,5 +1,5 @@
 //Chave da API que retorna as informações sobre as condições climaticas da cidade consultada
-const apiKey = "3f677111";
+const apiKey = "75693928";
 
 let cidadesConsultadas = [];
 
