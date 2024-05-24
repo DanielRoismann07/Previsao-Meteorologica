@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Previsão Meteorológica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="map" style="width: 100%; height: 400px">
+        <div class="informacoes">
+            <div class="container">
+                <div class="titulo">      
+                    <img class="imageSol" src="images/sol.png" alt="">              
+                    <h1>Previsão Meteorológica</h1>                                    
+                </div>                
+                <div class="input-cidade">
+                    <input type="text" class="cidade-consultada" id="cidade-consultada" placeholder="Digite o nome da cidade">
+                    <button class="botao-consulta" id="botao-consulta" onclick="botaoClique()">Consultar</button>
+                </div>
+            </div>
+            <div class="resultado-consulta">
+                <h3 class="cidade">Nome da cidade: </h3>
+                <p class="data">Data: </p>
+                <p class="tempAtual">Temperatura Atual: </p>
+                <p class="tempMaxima">Temperatura Máxima: </p>
+                <p class="tempMinima">Temperatura Mínima: </p>
+                <div class="tipo-clima">
+                    <p class="climaDescricao">Tipo do Clima: </p>
+                    <img class="icone-tempo" alt="icone-tempo" src="" style="display: none;">
+                </div>
+                <p class="chuva">Probabilidade de chuva: </p>
+                <div class="fase-lua">
+                    <p class="faseLuaConsulta">Fase da Lua: </p>
+                    <img class="icone-lua" alt="icone-lua" src="" style="display: none;">
+                </div>
+            </div>
+            <div class="proximos-dias" style="display: none;">
+                <h2 class="consultaProximosDias">Consulte a previsão para os próximos 3 dias:</h2>
+                <select name="comboProximosDias" id="comboProximosDias">
+                    <option class="dia0" value="dia0">Data Atual</option>
+                    <option class="dia1" value="dia1">Proximo Dia</option>
+                    <option class="dia2" value="dia2">Daqui 1 Dia</option>
+                    <option class="dia3" value="dia3">Daqui 2 Dias</option>
+                </select>
+            </div>
+            <div class="historico-container">
+                <label class="historicoCidades" for="historicoCidades">Histórico de Cidades: </label>
+            </div>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

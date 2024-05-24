@@ -1,0 +1,113 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+}
+
+h1 {
+    font-family: sans-serif;
+    margin-left: 10px;
+    color: #000000;
+}
+
+.titulo {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.imageSol {
+    width: 80px;
+    height: auto;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+.resultado-consulta {
+    background-color: #000000;
+    opacity: 0.8;
+    width: 95%;
+    max-width: 500px;
+    border-radius: 25px;
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+
+.input-cidade {
+    margin-left: 10px;
+}
+
+.input-botao {
+    margin-top: 10px;
+}
+
+.cidade-consultada {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+.botao-consulta {
+    outline: none;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 10px;
+    border: 1px solid black;
+}
+
+.tipo-clima {
+    display: flex;
+    align-items: center;
+}
+
+.climaDescricao {
+    text-transform: capitalize;
+}
+
+.fase-lua {
+    display: flex;
+    align-items: center;
+}
+
+.icone-tempo {
+    margin-left: 5px;
+    width: 50px;
+}
+
+.icone-lua {
+    margin-left: 5px;
+    width: 40px;
+}
+
+.proximos-dias {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.consultaProximosDias {
+    font-family: sans-serif;
+    color: #000000;
+}
+
+.cidade-consultadas {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.cidadesJaConsultadas {
+    font-family: sans-serif;
+    color: #000000;
+}
+
+.historico-container {
+    margin-left: 10px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    color: #000000;
+}
